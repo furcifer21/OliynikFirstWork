@@ -1,6 +1,15 @@
-@charset "UTF-8";
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss ***!
+  \**************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss (1) ***!
+  \******************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Schoolbell:regular);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss (2) ***!
+  \******************************************************************************************************************/
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -69,7 +78,7 @@ body {
 }
 
 .header__block {
-  background: #043E51 url("../../public/images/header/header_greeting/Rectangle.png") 0px 0px/cover no-repeat;
+  background: #043E51 url(2bf9f565542ee3b28657.png) 0px 0px/cover no-repeat;
 }
 .header__block_fade-in {
   animation: fadeIn ease 5s;
@@ -115,7 +124,7 @@ body {
 .header__content {
   padding-top: 45px;
   padding-bottom: 302px;
-  background: url("../../public/images/header/header_greeting/image.svg") 412px 58px/918px 755px no-repeat;
+  background: url(fef7488d40d437755542.svg) 412px 58px/918px 755px no-repeat;
 }
 .header__main {
   display: flex;
@@ -132,7 +141,7 @@ body {
   line-height: 100%;
 }
 .header__main h4::before {
-  content: url(../../public/images/header/header_main/logo.svg);
+  content: url(e219badafc4332d40bf6.svg);
   display: inline-block;
   vertical-align: middle;
 }
@@ -209,5 +218,3 @@ body {
   color: #FFFFFF;
   background-color: #FFA63A;
 }
-
-/*# sourceMappingURL=style.css.map */

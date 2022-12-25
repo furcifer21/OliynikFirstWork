@@ -72,11 +72,20 @@ body {
   background: #043E51 url("../../public/images/header/header_greeting/Rectangle.png") 0px 0px/cover no-repeat;
 }
 .header__block_fade-in {
-  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+          animation: fadeIn ease 5s;
   padding: 20px 28px 21px 28px;
   max-width: 244px;
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
   0% {
@@ -209,5 +218,3 @@ body {
   color: #FFFFFF;
   background-color: #FFA63A;
 }
-
-/*# sourceMappingURL=style.css.map */
