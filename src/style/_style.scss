@@ -68,7 +68,7 @@ body {
 // --------HEADER-----
 .header {
 	&__block {
-		background: #043E51   url('../../public/images/header/header_greeting/Rectangle.png') 0px 0px / cover no-repeat;
+		background: #043E51   url('img/header/header_greeting/Rectangle.png') 0px 0px / cover no-repeat;
 	}
 
 	&__block_fade-in{
@@ -118,7 +118,7 @@ body {
 	&__content{
 		padding-top: 45px;
 		padding-bottom: 302px;
-		background: url('../../public/images/header/header_greeting/image.svg') 412px 58px / 918px 755px no-repeat;
+		background: url('img/header/header_greeting/image.svg') 412px 58px / 918px 755px no-repeat;
 	}
 	
 	&__main {
@@ -142,7 +142,7 @@ body {
 		}
 
 		h4::before{
-			content: url(../../public/images/header/header_main/logo.svg);
+			content: url(img/header/header_main/logo.svg);
 			display: inline-block;
 			vertical-align: middle;
 		}

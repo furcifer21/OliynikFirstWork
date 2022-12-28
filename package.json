@@ -1,34 +1,37 @@
 {
-  "name": "oliynikhomework",
+  "name": "webpack_training",
   "version": "1.0.0",
-  "description": "Что такое readme и для чего он нужен? Распиши, что и как у тебя здесь работает, как запустить проект.",
-  "private": true,
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "webpack --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lepa15/OliynikHomeWork.git"
+    "start": "webpack serve",
+    "build-dev": "webpack",
+    "build-prod": "webpack --node-env=production",
+    "clear": "rd /s /q dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lepa15/OliynikHomeWork/issues"
-  },
-  "homepage": "https://github.com/lepa15/OliynikHomeWork#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
-    "node-sass": "^8.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss": "^8.4.20",
+    "postcss-loader": "^7.0.2",
+    "postcss-preset-env": "^7.8.3",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   },
-  "devDependencies": {
-    "mini-css-extract-plugin": "^2.7.2"
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
