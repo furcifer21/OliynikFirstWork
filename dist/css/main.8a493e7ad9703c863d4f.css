@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Schoolbell:regular);
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+  color: #696969;
+  background-color: #FFFFFF;
+}
+
+html {
+  font-size: 15px;
+  /* по умолчанию */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+}
+body._lock{overflow:hidden}.wrapper__block{min-height:100%;overflow:hidden;display:flex;flex-direction:column}._container{max-width:1170px;margin:0px auto;padding:0px 30px;box-sizing:content-box;position:relative;display:flex;flex-direction:column;justify-content:center}@media(max-width: 900px){._container{padding-top:95px}}.header__block{background:#043e51 url(../images/Rectangle.png) 0px 0px/cover no-repeat}.header__block_fade-in{position:absolute;top:356px;right:-232px;animation:fadeIn ease 5s;padding:20px 25px;max-width:300px;border:3px solid rgba(255,255,255,.5);border-radius:20px;z-index:5;background-color:rgba(255,255,255,.08);-webkit-backdrop-filter:blur(25px);backdrop-filter:blur(25px)}@media(max-width: 900px){.header__block_fade-in{position:static;flex:1 1 100%}}@media(max-width: 1700px){.header__block_fade-in{top:153px;right:376px}}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}.header__block_quote{font-size:14px;line-height:132%;color:#fff;text-align:left;margin-bottom:15px}.header__block_flex{display:flex}.header__block_image{border-radius:50%}.header__block_content{display:flex;flex-direction:column;justify-content:center;padding-left:15px}.header__block_name{font-weight:500;font-size:16px;line-height:116%;color:#fff}.header__block_profession{font-weight:400;font-size:12px;line-height:154%;color:#a1b5bb}.header__content{padding-bottom:302px}.header__fixed{position:fixed;top:0px;left:0;width:100%;background:#043e51 url(../images/Rectangle.png) 0px 0px/cover no-repeat;z-index:50}.header__main{max-width:1170px;display:flex;align-items:center;min-height:148px;padding:0 30px;margin:0 auto}@media(max-width: 1087px){.header__main{justify-content:space-between}}@media(max-width: 991.98px){.header__main{min-height:90px}}.header__main_button{display:none}@media(max-width: 767.98px){.header__main_button{flex:0 0 40px;display:block;color:#a1b5bb;cursor:pointer;font-size:40px;transition:.3s}.header__main_button:active{color:#ffa63a}}.header__main_logo{white-space:nowrap}@media(max-width: 767.98px){.header__main_logo{flex:0 1 46%;display:flex;justify-content:flex-end}}.header__main h4{font-weight:bold;color:#fff;font-size:30px;line-height:100%}.header__main h4::before{content:url(../images/logo.svg);display:inline-block;vertical-align:middle}.header__main_menu{flex:0 1 750px;display:flex;justify-content:flex-end}@media(max-width: 1087px){.header__main_menu{justify-content:center}.header__main_menu._active{left:0}}@media(max-width: 767.98px){.header__main_menu{position:fixed;top:90px;left:-100%;width:100%;height:100%;padding:20px 30px 30px 30px;background-color:#043e51;transition:all .3s ease 0s;overflow:auto}}.header__main_list{display:flex;align-items:center}@media(max-width: 767.98px){.header__main_list{display:flex;flex-direction:column;align-items:center}.header__main_list>li{margin:0px 0px;padding-bottom:20px}}@media(min-width: 767.98px){.header__main_item:not(:last-child){margin-right:50px}}.header__main_link{flex:0 1 20%;font-weight:600;font-size:18px;line-height:100%;color:#a1b5bb}@media(max-width: 991.98px){.header__main_link{flex:1 1 100%}}.header__main_link:hover{border-bottom:2px solid #265a6a}.header__main_contact{margin-left:auto}.header__main_contact-link{border-radius:25px;font-weight:700;font-size:18px;line-height:132%;color:#fff;padding:18.5px 35px;background-color:#145e76}@media(max-width: 767.98px){.header__main_contact-link{padding:15px 22px}}.header__main_contact-link:hover{background-color:#094556;color:#b6cdd4}.header__main_contact-link:active{text-shadow:2px 2px 2px #000}.header__greetings{display:flex;justify-content:space-between;align-items:flex-start;padding-top:146px}@media(max-width: 900px){.header__greetings{display:flex;justify-content:center;align-items:center;padding-top:15px}}@media(max-width: 991.98px){.header__greetings{gap:15px;margin-top:0px}}.header__greetings_hello{display:inline-block;padding:16px 30px;border-radius:30px;font-family:Schoolbell;font-size:24px;line-height:100%;color:#fff;background-color:#094556;margin-bottom:40px}@media(max-width: 900px){.header__greetings_hello{display:block;text-align:center}}.header__greetings_content{padding-top:105px}@media(max-width: 900px){.header__greetings_content{flex:0 0 100%;padding-top:0px}}.header__greetings_title{max-width:537px;font-weight:400;font-size:64px;line-height:103%;color:#fff;margin-bottom:30px}@media(max-width: 1087px){.header__greetings_title{font-size:42px}}@media(max-width: 900px){.header__greetings_title{max-width:100%}}.header__greetings_subtitle{max-width:511px;font-size:18px;line-height:132%;color:#849499;margin-bottom:50px}@media(max-width: 900px){.header__greetings_subtitle{max-width:100%}}.header__greetings_list{display:flex}@media(max-width: 900px){.header__greetings_list{justify-content:space-around}}.header__greetings_link{padding:16px 35px;font-weight:700;font-size:18px;line-height:132%;color:#b6cdd4;margin-right:15px;margin-bottom:57px}.header__greetings_link:hover{border-radius:25px;color:#fff;background-color:#ffa63a}.header__greetings_link:active{text-shadow:2px 2px 2px #000}.header__greetings_img-block{flex:0 0 490px;background:url("../images/Rectangle%2013.png") right 86px/490px 615px no-repeat}.header__greetings_img-block::after{content:"";display:block;width:100%;height:20px;background-color:#265a6a}@media(max-width: 900px){.header__greetings_img-block{display:none}}.header__greetings_img{width:100%;display:block}
