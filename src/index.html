@@ -25,7 +25,7 @@
 				</div>
 				<div class="header__content">
 					<div class="header__fixed">
-						<div class="header__main">
+						<div class="header__main home">
 								<div id="intro_btn" class="header__main_button">
 									<i id="menu-icon" class="fa-solid fa-bars" ></i>
 									<span></span>
@@ -36,17 +36,17 @@
 							<nav class="header__main_menu">
 								<ul class="header__main_list">
 									<li class="header__main_item">
-										<a href="#" class="header__main_link">
+										<a data-goto=".home" href="#" class="header__main_link">
 											Home
 										</a>
 									</li>
 									<li class="header__main_item">
-										<a href="#" class="header__main_link">
+										<a data-goto=".about" href="#" class="header__main_link">
 											About
 										</a>
 									</li>
 									<li class="header__main_item">
-										<a href="#" class="header__main_link">
+										<a data-goto=".service" href="#" class="header__main_link">
 											Service
 										</a>
 									</li>
@@ -104,27 +104,90 @@
 			</div>
 		</header>
 		<main  class="main__block">
-			<section class="statistics__block">
+			<section class="statistics__block about">
 				<div class="statistics__container">
 					<div class="statistics__content">
 						<div class="statistics__content_box">
 							<h4 class="statistics__name">STATISTIC</h4>
 							<div class="statistics__items">
-								<div class="statistics__item">
-									<div class="statistics__title">300+</div>
-									<div class="statistics__subtitle">Project Delivery</div>
+								<div class="statistics__column">
+									<div class="statistics__item">
+										<div class="statistics__title">300+</div>
+										<div class="statistics__subtitle">Project Delivery</div>
+									</div>
 								</div>
-								<div class="statistics__item">
-									<div class="statistics__title">8</div>
-									<div class="statistics__subtitle">Years Experience</div>
+								<div class="statistics__column">
+									<div class="statistics__item">
+										<div class="statistics__title">8</div>
+										<div class="statistics__subtitle">Years Experience</div>
+									</div>
 								</div>
-								<div class="statistics__item">
-									<div class="statistics__title">16</div>
-									<div class="statistics__subtitle">Awards</div>
+								<div class="statistics__column">
+									<div class="statistics__item">
+										<div class="statistics__title">16</div>
+										<div class="statistics__subtitle">Awards</div>
+									</div>
 								</div>
-								<div class="statistics__item">
-									<div class="statistics__title">70+</div>
-									<div class="statistics__subtitle">Happy Clients</div>
+								<div class="statistics__column">
+									<div class="statistics__item">
+										<div class="statistics__title">70+</div>
+										<div class="statistics__subtitle">Happy Clients</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services__block service">
+				<div class="services__container">
+					<div class="services__content">
+						<div class="services__title">Services</div>
+						<div class="services__subtitle">Building Digital Product
+							With Better Experience</div>
+						<div class="services__items">
+							<div class="services__column">
+								<div class="services__item">
+									<div class="services__item-icon">
+										<img class="services__item-img" src="img/services/anchor.png" alt="anchor">
+									</div>
+									<div class="services__item-title">UI/UX Design</div>
+									<div class="services__item-subtitle">I’ve created a user interface
+										and user experience with
+										some proccess and method.</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item">
+									<div class="services__item-icon">
+										<img class="services__item-img" src="img/services/Group 23.svg" alt="monitor">
+									</div>
+									<div class="services__item-title">Web Development</div>
+									<div class="services__item-subtitle">I’ve created a user interface
+										and user experience with
+										some proccess and method.</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item">
+									<div class="services__item-icon">
+										<img class="services__item-img" src="img/services/eye.png" alt="eye">
+									</div>
+									<div class="services__item-title">Visual Branding</div>
+									<div class="services__item-subtitle">I’ve created a user interface
+										and user experience with
+										some proccess and method.</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item">
+									<div class="services__item-icon">
+										<img class="services__item-img" src="img/services/anchor.png" alt="anchor">
+									</div>
+									<div class="services__item-title">App Development</div>
+									<div class="services__item-subtitle">I’ve created a user interface
+										and user experience with
+										some proccess and method.</div>
 								</div>
 							</div>
 						</div>
@@ -134,6 +197,5 @@
 		</main>
 	</div>
 	<script src="https://kit.fontawesome.com/64fa98e68c.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
