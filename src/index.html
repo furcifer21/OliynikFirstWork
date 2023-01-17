@@ -36,22 +36,22 @@
 							<nav class="header__main_menu">
 								<ul class="header__main_list">
 									<li class="header__main_item">
-										<a data-goto=".home" href="#" class="header__main_link">
+										<a data-goto=".home" href="#home" class="header__main_link">
 											Home
 										</a>
 									</li>
 									<li class="header__main_item">
-										<a data-goto=".about" href="#" class="header__main_link">
+										<a data-goto=".about" href="#about" class="header__main_link">
 											About
 										</a>
 									</li>
 									<li class="header__main_item">
-										<a data-goto=".service" href="#" class="header__main_link">
+										<a data-goto=".service" href="#service" class="header__main_link">
 											Service
 										</a>
 									</li>
 									<li class="header__main_item">
-										<a href="#" class="header__main_link">
+										<a data-goto=".page__section_1" href="#portfolio" class="header__main_link menu__link">
 											Portfolio
 										</a>
 									</li>
@@ -69,7 +69,7 @@
 							</div>
 						</div>
 					</div>
-					<section class="header__greetings">
+					<section class="header__greetings home">
 						<div class="header__greetings_content">
 							<div class="header__greetings_hello">
 								Hey, I’m Musa
@@ -104,7 +104,7 @@
 			</div>
 		</header>
 		<main  class="main__block">
-			<section class="statistics__block about">
+			<section id="js-target" class="statistics__block about">
 				<div class="statistics__container">
 					<div class="statistics__content">
 						<div class="statistics__content_box">
@@ -149,7 +149,7 @@
 							<div class="services__column">
 								<div class="services__item">
 									<div class="services__item-icon">
-										<img class="services__item-img" src="img/services/anchor.png" alt="anchor">
+										<div class="services__item_img-anchor"></div>
 									</div>
 									<div class="services__item-title">UI/UX Design</div>
 									<div class="services__item-subtitle">I’ve created a user interface
@@ -160,7 +160,7 @@
 							<div class="services__column">
 								<div class="services__item">
 									<div class="services__item-icon">
-										<img class="services__item-img" src="img/services/Group 23.svg" alt="monitor">
+										<div class="services__item_img-monitor"></div>
 									</div>
 									<div class="services__item-title">Web Development</div>
 									<div class="services__item-subtitle">I’ve created a user interface
@@ -171,7 +171,7 @@
 							<div class="services__column">
 								<div class="services__item">
 									<div class="services__item-icon">
-										<img class="services__item-img" src="img/services/eye.png" alt="eye">
+										<div class="services__item_img-eye"></div>
 									</div>
 									<div class="services__item-title">Visual Branding</div>
 									<div class="services__item-subtitle">I’ve created a user interface
@@ -182,7 +182,7 @@
 							<div class="services__column">
 								<div class="services__item">
 									<div class="services__item-icon">
-										<img class="services__item-img" src="img/services/anchor.png" alt="anchor">
+										<div class="services__item_img-anchor"></div>
 									</div>
 									<div class="services__item-title">App Development</div>
 									<div class="services__item-subtitle">I’ve created a user interface
@@ -194,8 +194,85 @@
 					</div>
 				</div>
 			</section>
+			<article class="portfolio__block page__section_1">
+				<div class="portfolio__container">
+					<div class="portfolio__content">
+						<h4 class="portfolio__title">Featured My Portfolio</h4>
+						<div class="portfolio__subtitle">Explore some of my latest website projects. Non suscipit ex blandit
+							vitae. Pellentesque vel urna id massa sagittis luctus Fusce iaculis.</div>
+						<div class="portfolio__items">
+							<div class="portfolio__column">
+								<div class="portfolio__item">
+									<div class="portfolio__item_image">
+										<img class="portfolio__item_img" src="img/portfolio/website_design.jpg" alt="website design">
+									</div>
+									<div class="portfolio__item_title">Website Design</div>
+									<div class="portfolio__item_subtitle">Our website designers have penetrated the mysteries of
+										emotional response to color, image,  and eye-tracking.
+										Every element is geared to create maximum appeal.</div>
+									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
+								</div>
+							</div>
+							<div class="portfolio__column">
+								<div class="portfolio__item">
+									<div class="portfolio__item_image">
+										<img class="portfolio__item_img" src="img/portfolio/product_design.jpg" alt="product design">
+									</div>
+									<div class="portfolio__item_title">Product Design</div>
+									<div class="portfolio__item_subtitle">Our Product designers have penetrated the mysteries of
+										emotional response to color, image,  and eye-tracking.
+										Every element is geared to create maximum appeal.</div>
+									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
+								</div>
+							</div>
+							<div class="portfolio__column">
+								<div class="portfolio__item">
+									<div class="portfolio__item_image">
+										<img class="portfolio__item_img" src="img/portfolio/app_design.jpg" alt="app design">
+									</div>
+									<div class="portfolio__item_title">App Design</div>
+									<div class="portfolio__item_subtitle">Our App designers have penetrated the mysteries of
+										emotional response to color, image,  and eye-tracking.
+										Every element is geared to create maximum appeal.</div>
+									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
+								</div>
+							</div>
+							<div class="portfolio__column">
+								<div class="portfolio__item">
+									<div class="portfolio__item_image">
+										<img class="portfolio__item_img" src="img/portfolio/dashboard_design.jpg" alt="dashboard design">
+									</div>
+									<div class="portfolio__item_title">DashBoard Design</div>
+									<div class="portfolio__item_subtitle">Our Dashboard designers have penetrated the mysteries of
+										emotional response to color, image,  and eye-tracking.
+										Every element is geared to create maximum appeal.</div>
+									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<section class="quote__block" hidden>
+				<div class="quote__container">
+					<div class="quote__content">
+						<div class="quote__text">Managed Services team acts like an extension of yours to expertly
+							respond to any and all feedback, and scan and evaluate reviews for
+							any legal concerns, profanity or slander, or any policy violations of <br>
+							<br>community and content. Services, analytics and reports can be
+							customized by location, project or initiative.</div>
+						<div class="quote__subtext">Mohammad Musa  - CEO at Company</div>
+						<div class="quote__arrow">
+							<div class="quote__arrow_left"><img src="img/quote/arrow-left.png" alt="arrow left"></div>
+							<div class="quote__arrow_right"><img src="img/quote/arrow-right.png" alt="arrow right"></div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
 	<script src="https://kit.fontawesome.com/64fa98e68c.js" crossorigin="anonymous"></script>
 </body>
 </html>

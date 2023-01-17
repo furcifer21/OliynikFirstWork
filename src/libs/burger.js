@@ -51,7 +51,7 @@ if (mainButton){
 
 // Прокрутка при клике
 
-const menuLinks = document.querySelectorAll('.header__main_link[data-goto]');
+const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
 if (menuLinks.length > 0) {
 	menuLinks.forEach(menuLink => {
 		menuLink.addEventListener('click', onMenuLinkClick);
@@ -83,3 +83,9 @@ if (menuLinks.length > 0) {
 document.getElementById('intro_btn').onclick = function() {
 	document.getElementById('menu-icon').classList.toggle('fa-times');
  }
+
+// Смена иконки ссылки
+
+//  document.getElementById('portfolio__item_link').mouseover= function() {
+// 	document.getElementById('portfolio__item_link').classList.mouseover('portfolio__item_link-yellow-arrow');
+//  }
