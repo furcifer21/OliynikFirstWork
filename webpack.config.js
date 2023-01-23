@@ -20,17 +20,17 @@ module.exports = {
 	},
 	entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 		clean: true,
-		filename: 'js/[name].[contenthash].js',
-		assetModuleFilename: 'images/[name][ext]',
+		filename: 'js/index.[contenthash].js',
+		assetModuleFilename: 'img/[name][ext]',
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, 'src', 'index.html')
 		}),
 		new MiniCssExtractPlugin({
-			filename: 'css/[name].[contenthash].css',
+			filename: 'css/style.[contenthash].css',
 		})
 	],
 	module: {
@@ -54,10 +54,6 @@ module.exports = {
 					},
 					"sass-loader",
 				],
-				// type: 'asset/resource',
-				// generator: {
-				// 	filename: 'css/[name][ext]',
-				// },
 			},
 			{
 				test: /\.woff2?$/i,
