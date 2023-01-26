@@ -1,0 +1,138 @@
+.about-block {
+	padding-top: 12px;
+	padding-bottom: 282px;
+	background-color: #043E51;
+	background-image: url('img/header/header_greeting/Rectangle.png');
+
+	@media (max-width: 1050px) {
+		padding-bottom: 200px;
+	}
+
+	&__container {
+		display: flex;
+
+		@media (min-width:1050px) {
+			min-height: 702px;
+		}
+	}
+
+	&__content {
+		position: relative;
+		flex-basis: 50%;
+		padding-top: 125px;
+		
+		@media (max-width: 1050px) {
+			flex-basis: 100%;
+			padding-top: 0px;
+		}
+	}
+
+	&__pop-up-block {
+		margin-bottom: 30px;
+
+		@media (min-width: 1050px) {
+			position: absolute;
+			top: 18px;
+			left: 280px;
+			z-index: 5;
+		}
+
+		@media (min-width: 1770px) {
+			position: absolute;
+			top: 241px;
+			left: 1102px;
+			z-index: 5;
+		}
+	}
+
+	&__image-box {
+		position: relative;
+		flex-basis: 50%;
+		background-image: url('img/header/header_main/Rectangle\ 13.png'); 
+		background-repeat: no-repeat;
+		background-position: right 86px;
+
+		@media (max-width: 1050px) {
+			display: none;
+		}
+
+	}
+
+	&__image {
+		position: absolute;
+		right: 0;
+	}
+
+	&__greeting {
+		display: inline-block;
+		padding: 16px 30px;
+		border-radius: 30px;
+		font-family: 'Schoolbell';
+		font-size: 24px;
+		line-height: 33px;
+		color: #FFFFFF;
+		background-color: #094556;
+		margin-bottom: 40px;
+
+		@media (max-width: 1050px) {
+			display: block;
+			text-align: center;
+		}
+	}
+
+	&__title {
+		margin: 0;
+		margin-bottom: 30px;
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 1.25;
+		color: #FFFFFF;
+
+		@media (max-width: 1050px) {
+			font-size: 35px;
+		}
+	}
+
+	&__tagline {
+		margin-bottom: 50px;
+		font-size: 18px;
+		line-height: 29px;
+		color: #849499;
+	}
+
+	&__link-wrapper {
+
+		@media (max-width: 1050px) {
+			display:flex;
+			justify-content: center;
+			gap: 15px;
+			flex-wrap: wrap;
+		}
+
+		@media (max-width: 368px) {
+			gap: 0;
+		}
+	
+	}
+
+	&__link {
+		padding: 16px 35px;
+		font-weight: 600;
+		font-size: 18px;
+		border-radius: 25px;
+		line-height: 29px;
+		color: #B6CDD5;
+		transition: all 0.3s ease 0s;
+
+		&:hover {
+			background-color: #FFA63A;
+			color: #FFFFFF;
+		}
+
+		@media (max-width: 368px) {
+			padding: 12px 25px;
+		}
+
+	}
+}
+
