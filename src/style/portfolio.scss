@@ -36,10 +36,10 @@
 
 	&__list {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(515px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 		gap: 70px ;
 
-		@media (max-width: 1220px) {
+		@media (max-width: 768px) {
 			grid-template-columns: 1fr;
 			justify-items: center;
 			gap: 35px;

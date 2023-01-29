@@ -1,0 +1,75 @@
+.testimonials-block__slider-list {
+ position: relative;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+	display: flex;
+}
+
+.slick-arrow {
+	/* position: absolute; */
+	bottom: 0;
+	left: auto;	
+	z-index: 5;
+}
+
+.testimonials-block__arrow_left {
+
+}
+
+.testimonials-block__arrow_right {
+	fill: none;
+}
+
+/* Стрелка влево */
+/* .testimonials-block__slider-list .slick-arrow.slick-prev{
+	background-image: url('img/testimonials/arrow-left.svg');
+} */
+/* Стрелка вправо */
+/* .testimonials-block__slider-list .slick-arrow.slick-next{
+	background-image: url('img/testimonials/arrow-right.svg');
+
+} */
+
+
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+
+
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}

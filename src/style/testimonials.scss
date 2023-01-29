@@ -1,0 +1,87 @@
+.testimonials-block {
+	background-color: #043E51;
+	background-image: url('img/header/header_greeting/Rectangle.png');
+
+	&__container {
+		display: flex;
+		padding-top: 102px;
+		gap: 47px;
+	}
+
+	&__image-box {
+		padding-top: 16;
+		flex-basis: 0;
+		flex-grow: 1;
+		background-image: url('img/header/header_main/Rectangle\ 13.png'); 
+		background-repeat: no-repeat;
+		background-size: 431px 542px;
+		background-position: 34px top;
+	}
+
+	&__image {
+		padding-top: 18px;
+		padding-left: 49px;
+		width: 513px;
+	}
+
+	&__slider {
+		flex-basis: 0;
+		flex-grow: 1;
+		padding-top: 83px;
+		padding-bottom: 121px;
+		min-width: 0;
+	}
+
+	&__slider-container {
+	}
+
+	&__slider-list {
+	}
+
+	&__slider-item {
+	}
+
+	&__description {
+		margin-bottom: 20px;
+		padding-top: 77px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.6;
+		color: #FFFFFF;
+		background-image: url('img/testimonials/quotes.png');
+		background-repeat: no-repeat;
+	}
+
+	&__author {
+		margin-bottom: 40px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.6;
+		color: #AABFC6;
+	}
+
+	&__arrow-wrapper {
+		background: inherit;
+	}
+
+	&__arrow {
+		cursor: pointer;
+		fill: none;
+		stroke: #A6C1CA;
+		transition-duration: 0.3s;
+
+		&:hover {
+			stroke: #FFFFFF;
+			transform: scale(2);
+		}
+	}
+
+	&__arrow_left {
+	}
+	
+	&__arrow_right {
+		margin-left: 25px;
+	}
+
+
+}

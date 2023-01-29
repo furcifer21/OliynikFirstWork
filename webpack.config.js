@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+const webpack = require('webpack')
 
 
 
@@ -33,7 +34,10 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: 'css/style.[contenthash].css',
 		}),
-		new SpriteLoaderPlugin(),
+		new webpack.ProvidePlugin({
+			'window.$': 'jquery',
+			jQuery: 'jquery',
+		 }),
 	],
 	module: {
 		rules: [
