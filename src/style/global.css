@@ -63,12 +63,14 @@ body.lock {
 }
 
 section,
+aside,
 article {
 	padding: 100px 0;
 }
 
 @media (max-width: 1050px) {
 	section,
+	aside,
 	article {
 		padding: 50px 0;
 	}
@@ -76,6 +78,7 @@ article {
 
 @media (max-width: 768px) {
 	section,
+	aside,
 	article {
 		padding: 25px 0;
 	}

@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="wrapper-block">
-		<header class="header-block">
+		<header id="home" class="header-block">
 			<div class="container">
 				<div class="header-block__container">
 						<div id="intro_btn" class="menu-button">
@@ -23,11 +23,11 @@
 			
 							<ul class="navigation__list">
 								<li class="navigation__item">
-									<a class="navigation__link" href="#about">Home</a>
+									<a class="navigation__link" href="#home">Home</a>
 								</li>
 			
 								<li class="navigation__item">
-									<a class="navigation__link" href="#statistic">About</a>
+									<a class="navigation__link" href="#about">About</a>
 								</li>
 			
 								<li class="navigation__item">
@@ -39,7 +39,7 @@
 								</li>
 			
 								<li class="navigation__item">
-									<a class="navigation__link" href="#">Blog</a>
+									<a class="navigation__link" href="#blog">Blog</a>
 								</li>
 							</ul>
 						</nav>
@@ -62,7 +62,7 @@
 
 								<div class="pop-up-block__wrapper-content">
 									<p class="pop-up-block__title">Jason Holder</p>
-									<p class="pop-up__tagline">UX Designer at Futura</p>
+									<p class="pop-up-block__tagline">UX Designer at Futura</p>
 								</div>
 							</div>
 
@@ -298,11 +298,11 @@
 				</div>
 			</section>
 
-			<section class="testimonials-block">
+			<aside class="testimonials-block">
 				<div class="container">
 					<div class="testimonials-block__container">
 						<div class="testimonials-block__image-box">
-							<img src="img/testimonials/businessman-black-suit-makes-thumb-up-sign-removebg-preview 1.png" alt="Автор сайта" class="testimonials-block__image">
+							<img src="img/testimonials/businessman.png" alt="Автор сайта" class="testimonials-block__image">
 						</div>
 
 						<div class="testimonials-block__slider">
@@ -338,289 +338,251 @@
 								</li>
 							</ul>
 							
-							<button class="testimonials-block__arrow-wrapper">
+							<div class="testimonials-block__arrow-wrapper">
 								<svg class="testimonials-block__arrow testimonials-block__arrow_left" width="25" height="23" viewBox="0 0 25 23" xmlns="http://www.w3.org/2000/svg">
 									<path d="M11 1.45801L1 11.458L11 21.458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 									<path d="M1 11.458H23.8571" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg>
-							</button>
-
-							<button class="testimonials-block__arrow-wrapper">
+					
 								<svg class="testimonials-block__arrow testimonials-block__arrow_right" width="25" height="23" viewBox="0 0 25 23" xmlns="http://www.w3.org/2000/svg">
 									<path d="M13.8571 21.458L23.8571 11.458L13.8571 1.45801" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 									<path d="M23.8571 11.458L1 11.458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg>	
-							</button>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</aside>
+
+			<aside id="blog" class="blog-block">
+				<div class="container">
+					<div class="blog-block__container">
+						<aside class="blog-block__achievements">
+							<ul class="blog-block__slider">
+								<li class="blog-block__slider-item">
+									<a href="#" class="blog-block__slider-link">
+										<img src="img/blog/dash-board-image.jpg" alt="Доска с реализацией статистики" class="blog-block__slider-image">
+	
+										<h3 class="blog-block__slider-title">
+											How This Agency Helped My
+											Business And Career Journey?
+										</h3>
+	
+										<p class="blog-block__slider-tagline">
+											A successful marketing plan relies heavily on the pulling-power of advertising
+											copy. writing result-oriented ad copy is dificult, as it must appeal to, entice,
+											and onviced consumers tp action.
+										</p>
+									</a>
+								</li>
+	
+								<li class="blog-block__slider-item">
+									<a href="#" class="blog-block__slider-link">
+										<img src="img/blog/linux.jpg" alt="Доска с реализацией статистики" class="blog-block__slider-image">
+	
+										<h3 class="blog-block__slider-title">
+											Линус Торвальдс
+										</h3>
+	
+										<p class="blog-block__slider-tagline">
+											По правде сказать, я вообще большой фанат сна. Некоторые думают, что это просто лень, но я готов забросать их подушками.
+										</p>
+									</a>
+								</li>
+	
+								<li class="blog-block__slider-item">
+									<a href="#" class="blog-block__slider-link">
+										<img src="img/blog/bill.jpg" alt="Доска с реализацией статистики" class="blog-block__slider-image">
+	
+										<h3 class="blog-block__slider-title">
+											Билл Гейтс
+										</h3>
+	
+										<p class="blog-block__slider-tagline">«Деньги не имеют для меня никакой пользы после определенного момента. Его полезность заключается исключительно в создании организации и предоставлении ресурсов беднейшим слоям населения мира ».</p>
+									</a>
+								</li>
+							</ul>
+
+							<div class="blog-block__arrow-wrapper">
+								<svg class="blog-block__arrow blog-block__arrow-left" width="25" height="23" viewBox="0 0 25 23" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11 1.45801L1 11.458L11 21.458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M1 11.458H23.8571" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+									
+								<svg class="blog-block__arrow blog-block__arrow-right" width="25" height="23" viewBox="0 0 25 23" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.8571 21.458L23.8571 11.458L13.8571 1.45801" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M23.8571 11.458L1 11.458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>	
+							</div>
+	
+							<ul class="blog-block__list">
+								<li class="blog-block__item">
+									<a href="#" class="blog-block__item-link">PUBLISHED IN</a>
+								</li>
+	
+								<li class="blog-block__item">
+									<a href="#" class="blog-block__item-link">Marketing</a>
+								</li>
+	
+								<li class="blog-block__item">
+									<a href="#" class="blog-block__item-link">Category</a>
+								</li>
+
+								<li class="blog-block__item">
+									<p><small class="blog-block__data">05 jun, 2021</small></p>
+								</li>
+							</ul>
+	
+						</aside>
+
+						<article class="blog-block__my-blog-news">
+							<h2 class="blog-block__title">My Blog
+								And News
+							</h2>
+	
+							<p class="blog-block__tagline">
+								If It’s abillboard ad, you’ll need a super
+								catchy headline due to the speed at
+								which people will pass.
+							</p>
+	
+							<a href="#" class="blog-block__link">Go To The Blog</a>
+						</article>
+					</div>
+				</div>
+			</aside>
 		</main>
-		<!-- <header class="header__block">
-			<div class="header__container">
-				<div class="header__block_fade-in">
-					<div class="header__block_quote">‘’Musa has benn an outstanding
-						contributor to our team’s UI Designer
-						needs highly recommened’’</div>
-					<div class="header__block_flex">
-						<img class="header__block_image" src="img/header/header_main/icon-man.jpg" alt="avatar">
-						<div class="header__block_content">
-							<div class="header__block_name">Jason Holder</div>
-							<div class="header__block_profession">UX Designer at Futura</div>
-						</div>
-					</div>	
-				</div>
-				<div class="header__content">
-					<div class="header__fixed">
-						<div class="header__main home">
-								<div id="intro_btn" class="header__main_button">
-									<i id="menu-icon" class="fa-solid fa-bars" ></i>
-									<span></span>
-								</div>
-							<div class="header__main_logo">
-								<h4>P.</h4>
-							</div>
-							<nav class="header__main_menu">
-								<ul class="header__main_list">
-									<li class="header__main_item">
-										<a data-goto=".home" href="#home" class="header__main_link">
-											Home
-										</a>
-									</li>
-									<li class="header__main_item">
-										<a data-goto=".about" href="#about" class="header__main_link">
-											About
-										</a>
-									</li>
-									<li class="header__main_item">
-										<a data-goto=".service" href="#service" class="header__main_link">
-											Service
-										</a>
-									</li>
-									<li class="header__main_item">
-										<a data-goto=".page__section_1" href="#portfolio" class="header__main_link menu__link">
-											Portfolio
-										</a>
-									</li>
-									<li class="header__main_item">
-										<a href="#" class="header__main_link">
-											Blog
-										</a>
-									</li>
-								</ul>
-							</nav>
-							<div class="header__main_contact">
-								<a href="#" class="header__main_contact-link">
-									Contact
-								</a>
-							</div>
-						</div>
+
+		<footer class="footer-block">
+			<div class="container">
+				<div class="footer-block__container">
+					<div class="footer-block__overall">
+						<ul class="footer-block__overall-list pages-list">
+							<li class="footer-block__overall-item">
+								<h2 class="footer-block__overall-title">Pages</h2>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">Home</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#about" class="footer-block__overall-link">About</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#services" class="footer-block__overall-link">Service</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#portfolio" class="footer-block__overall-link">Portfolio</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#blog" class="footer-block__overall-link">Blog</a>
+							</li>
+						</ul>
+
+						<ul class="footer-block__overall-list services-list">
+							<li class="footer-block__overall-item">
+								<h2 class="footer-block__overall-title">Services</h2>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">Web Design</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">App Design</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">Dashboard</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">Illustration</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="#" class="footer-block__overall-link">Development</a>
+							</li>
+						</ul>
+
+						<ul class="footer-block__overall-list pages-list">
+							<li class="footer-block__overall-item">
+								<h2 class="footer-block__overall-title">Contact</h2>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<a href="tel:+37377595754" class="footer-block__overall-link">+373 775 957 54</a>
+							</li>
+
+							<li class="footer-block__overall-item">
+								<li class="footer-block__overall-item">
+									<a href="mailto:lepa2604@gmail.com" class="footer-block__overall-link">lepa2604@gmail.com</a>
+								</li>
+
+								<li class="footer-block__overall-item">
+									<a href="https://t.me/lepa1515" target="_blank"  class="footer-block__overall-link">https://t.me/lepa1515</a>
+								</li>
+
+								<li class="footer-block__overall-item">
+									<a href="https://www.google.com/maps/place/%D0%A8%D0%B5%D1%80%D0%B8%D1%84-9/@46.8357931,29.6632026,17z/data=!3m2!4b1!5s0x40c9029eeebe41a5:0x71b5f4ac315ae3f8!4m6!3m5!1s0x40c9029eee5ad1c9:0x77e8bf78855ad90e!8m2!3d46.8357895!4d29.6653913!16s%2Fg%2F11c1t5zh00?hl=ru" target="_blank"  class="footer-block__overall-link">44, Housing State, 3200</a>
+								</li>
+						</ul>
 					</div>
-					<section class="header__greetings home">
-						<div class="header__greetings_content">
-							<div class="header__greetings_hello">
-								Hey, I’m Musa
-							</div>
-							<h1 class="header__greetings_title">
-								Building Digital Products, Brands & Experience.
-							</h1>
-							<div class="header__greetings_subtitle">
-								A Product Design and Visual Designer in SF I”m Specialize in UI/UX, Responsive web design, and visual
-								Development.
-							</div>
-							<div class="header__greetings_menu">
-								<ul class="header__greetings_list">
-									<li class="header__greetings_item">
-										<a href="https://xn--80affa3aj0al.xn--80asehdb/#@lepa1515" target="_blank" class="header__greetings_link">
-											Hire Me
-										</a>
-									</li>
-									<li class="header__greetings_item">
-										<a href="#" class="header__greetings_link">
-											My Work
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="header__greetings_img-block">
-							<img class="header__greetings_img" src="img/header/header_main/man1.png" alt="Owner">
-						</div>
-					</section>
+
+					<div class="footer-block__main">
+						<img src="img/logo-dark.svg" alt="Логотип сайта" class="footer-block__main-logo">
+
+						<p class="footer-block__main-tagline">Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Lectus mattis nunc
+							aliquam tincidunt est non.</p>
+
+						<ul class="footer-block__main-list">
+							<li class="footer-block__main-item">
+								<a href="#" class="footer-block__main-link">
+									<svg class="footer-block__main-icon" width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.9963 4.98125H15.735V0.21125C15.2625 0.14625 13.6375 0 11.745 0C7.79626 0 5.09127 2.48375 5.09127 7.04875V11.25H0.733765V16.5825H5.09127V30H10.4338V16.5837H14.615L15.2788 11.2513H10.4325V7.5775C10.4338 6.03625 10.8488 4.98125 12.9963 4.98125Z"/>
+									</svg>	
+								</a>
+							</li>
+
+							<li class="footer-block__main-item">
+								<a href="#" class="footer-block__main-link">
+									<svg class="footer-block__main-icon instagram-icon" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M24.5 2H9.5C5.35786 2 2 5.35786 2 9.5V24.5C2 28.6421 5.35786 32 9.5 32H24.5C28.6421 32 32 28.6421 32 24.5V9.5C32 5.35786 28.6421 2 24.5 2Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M23 16.0542C23.1851 17.3026 22.9719 18.5776 22.3906 19.6978C21.8094 20.818 20.8897 21.7264 19.7624 22.2937C18.6351 22.8611 17.3577 23.0586 16.1117 22.8581C14.8657 22.6576 13.7146 22.0694 12.8222 21.177C11.9299 20.2846 11.3416 19.1335 11.1411 17.8876C10.9406 16.6416 11.1381 15.3641 11.7055 14.2368C12.2729 13.1095 13.1813 12.1898 14.3015 11.6086C15.4217 11.0273 16.6966 10.8141 17.945 10.9992C19.2184 11.1881 20.3973 11.7814 21.3075 12.6917C22.2178 13.602 22.8112 14.7808 23 16.0542Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M25.25 8.75H25.265" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+								   </svg>		
+								</a>
+							</li>
+
+							<li class="footer-block__main-item">
+								<a href="#" class="footer-block__main-link">
+									<svg class="footer-block__main-icon" width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M35 0.0168121C33.4765 1.14614 31.7897 2.0099 30.0045 2.57482C29.0464 1.41704 27.773 0.596446 26.3566 0.224004C24.9403 -0.148438 23.4492 -0.0547524 22.0851 0.492389C20.7211 1.03953 19.5498 2.01373 18.7297 3.28323C17.9097 4.55272 17.4804 6.05627 17.5 7.59051V9.26241C14.7042 9.33859 11.9338 8.68696 9.4357 7.36555C6.93755 6.04414 4.78914 4.09396 3.18182 1.68871C3.18182 1.68871 -3.18182 16.7358 11.1364 23.4234C7.85993 25.7606 3.95684 26.9326 0 26.7672C14.3182 35.1267 31.8182 26.7672 31.8182 7.54035C31.8167 7.07465 31.7741 6.6101 31.6909 6.15268C33.3146 4.4699 34.4604 2.34529 35 0.0168121Z"/>
+									</svg>
+								</a>
+							</li>
+
+							<li class="footer-block__main-item">
+								<a href="#" class="footer-block__main-link">
+									<svg class="footer-block__main-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M21 9.47388C23.3869 9.47388 25.6761 10.472 27.364 12.2487C29.0518 14.0253 30 16.435 30 18.9476V30.0002H24V18.9476C24 18.11 23.6839 17.3068 23.1213 16.7146C22.5587 16.1224 21.7956 15.7897 21 15.7897C20.2044 15.7897 19.4413 16.1224 18.8787 16.7146C18.3161 17.3068 18 18.11 18 18.9476V30.0002H12V18.9476C12 16.435 12.9482 14.0253 14.636 12.2487C16.3239 10.472 18.6131 9.47388 21 9.47388Z"/>
+										<path d="M6 11.053H0V30.0003H6V11.053Z"/>
+										<path d="M3 6.31579C4.65685 6.31579 6 4.90195 6 3.15789C6 1.41384 4.65685 0 3 0C1.34315 0 0 1.41384 0 3.15789C0 4.90195 1.34315 6.31579 3 6.31579Z"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</header> -->
-		<!-- <main  class="main__block">
-			<section id="statistics" class="statistics__block about">
-				<div class="statistics__container">
-					<div class="statistics__content">
-						<div class="statistics__content_box">
-							<h4 class="statistics__name">STATISTIC</h4>
-							<div class="statistics__items">
-								<div class="statistics__column">
-									<div class="statistics__item">
-										<div class="statistics__title">300+</div>
-										<div class="statistics__subtitle">Project Delivery</div>
-									</div>
-								</div>
-								<div class="statistics__column">
-									<div class="statistics__item">
-										<div class="statistics__title">8</div>
-										<div class="statistics__subtitle">Years Experience</div>
-									</div>
-								</div>
-								<div class="statistics__column">
-									<div class="statistics__item">
-										<div class="statistics__title">16</div>
-										<div class="statistics__subtitle">Awards</div>
-									</div>
-								</div>
-								<div class="statistics__column">
-									<div class="statistics__item">
-										<div class="statistics__title">70+</div>
-										<div class="statistics__subtitle">Happy Clients</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="services" class="services__block service">
-				<div class="services__container">
-					<div class="services__content">
-						<div class="services__title">Services</div>
-						<div class="services__subtitle">Building Digital Product
-							With Better Experience</div>
-						<div class="services__items">
-							<div class="services__column">
-								<div class="services__item">
-									<div class="services__item-icon">
-										<div class="services__item_img-anchor"></div>
-									</div>
-									<div class="services__item-title">UI/UX Design</div>
-									<div class="services__item-subtitle">I’ve created a user interface
-										and user experience with
-										some proccess and method.</div>
-								</div>
-							</div>
-							<div class="services__column">
-								<div class="services__item">
-									<div class="services__item-icon">
-										<div class="services__item_img-monitor"></div>
-									</div>
-									<div class="services__item-title">Web Development</div>
-									<div class="services__item-subtitle">I’ve created a user interface
-										and user experience with
-										some proccess and method.</div>
-								</div>
-							</div>
-							<div class="services__column">
-								<div class="services__item">
-									<div class="services__item-icon">
-										<div class="services__item_img-eye"></div>
-									</div>
-									<div class="services__item-title">Visual Branding</div>
-									<div class="services__item-subtitle">I’ve created a user interface
-										and user experience with
-										some proccess and method.</div>
-								</div>
-							</div>
-							<div class="services__column">
-								<div class="services__item">
-									<div class="services__item-icon">
-										<div class="services__item_img-anchor"></div>
-									</div>
-									<div class="services__item-title">App Development</div>
-									<div class="services__item-subtitle">I’ve created a user interface
-										and user experience with
-										some proccess and method.</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<article id="portfolio" class="portfolio__block page__section_1">
-				<div class="portfolio__container">
-					<div class="portfolio__content">
-						<h4 class="portfolio__title">Featured My Portfolio</h4>
-						<div class="portfolio__subtitle">Explore some of my latest website projects. Non suscipit ex blandit
-							vitae. Pellentesque vel urna id massa sagittis luctus Fusce iaculis.</div>
-						<div class="portfolio__items">
-							<div class="portfolio__column">
-								<div class="portfolio__item">
-									<div class="portfolio__item_image">
-										<img class="portfolio__item_img" src="img/portfolio/website_design.jpg" alt="website design">
-									</div>
-									<div class="portfolio__item_title">Website Design</div>
-									<div class="portfolio__item_subtitle">Our website designers have penetrated the mysteries of
-										emotional response to color, image,  and eye-tracking.
-										Every element is geared to create maximum appeal.</div>
-									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
-								</div>
-							</div>
-							<div class="portfolio__column">
-								<div class="portfolio__item">
-									<div class="portfolio__item_image">
-										<img class="portfolio__item_img" src="img/portfolio/product_design.jpg" alt="product design">
-									</div>
-									<div class="portfolio__item_title">Product Design</div>
-									<div class="portfolio__item_subtitle">Our Product designers have penetrated the mysteries of
-										emotional response to color, image,  and eye-tracking.
-										Every element is geared to create maximum appeal.</div>
-									<a data-goto=".portfolio" href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
-								</div>
-							</div>
-							<div class="portfolio__column">
-								<div class="portfolio__item">
-									<div class="portfolio__item_image">
-										<img class="portfolio__item_img" src="img/portfolio/app_design.jpg" alt="app design">
-									</div>
-									<div class="portfolio__item_title">App Design</div>
-									<div class="portfolio__item_subtitle">Our App designers have penetrated the mysteries of
-										emotional response to color, image,  and eye-tracking.
-										Every element is geared to create maximum appeal.</div>
-									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
-								</div>
-							</div>
-							<div class="portfolio__column portfolio ">
-								<div class="portfolio__item">
-									<div class="portfolio__item_image">
-										<img class="portfolio__item_img" src="img/portfolio/dashboard_design.jpg" alt="dashboard design">
-									</div>
-									<div class="portfolio__item_title">DashBoard Design</div>
-									<div class="portfolio__item_subtitle">Our Dashboard designers have penetrated the mysteries of
-										emotional response to color, image,  and eye-tracking.
-										Every element is geared to create maximum appeal.</div>
-									<a href="#" class="portfolio__item_link"><span>Read Case Study</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</article>
-			<section class="quote__block" hidden>
-				<div class="quote__container">
-					<div class="quote__content">
-						<div class="quote__text">Managed Services team acts like an extension of yours to expertly
-							respond to any and all feedback, and scan and evaluate reviews for
-							any legal concerns, profanity or slander, or any policy violations of <br>
-							<br>community and content. Services, analytics and reports can be
-							customized by location, project or initiative.</div>
-						<div class="quote__subtext">Mohammad Musa  - CEO at Company</div>
-						<div class="quote__arrow">
-							<div class="quote__arrow_left"><img src="img/quote/arrow-left.png" alt="arrow left"></div>
-							<div class="quote__arrow_right"><img src="img/quote/arrow-right.png" alt="arrow right"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-	</div> -->
+		</footer>
+	</div>
 	
-	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-
 	<script src="https://kit.fontawesome.com/64fa98e68c.js" crossorigin="anonymous"></script>
 </body>
 </html>
