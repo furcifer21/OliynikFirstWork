@@ -1,0 +1,51 @@
+.pop-up-block{
+	display: block;
+	padding: 20px 28px;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	width: 100%;
+	max-width: 300px;
+	background: rgba(255, 255, 255, 0.08);
+	backdrop-filter: blur(29px);
+	border-radius: 20px;
+	animation: fadeIn ease 5s;
+
+	@keyframes fadeIn{
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+
+	@media (max-width: 1050px) {
+		padding: 15px 18px;
+		width: auto;
+	}
+
+	&__describtion {
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
+
+	&__wrapper-content {
+		padding-left: 60px;
+		background-image: url('img/pop-up-block/user-icon.png');
+		background-size: 45px;
+		background-repeat: no-repeat;
+		min-height: 45px;
+	}
+
+	&__title {
+		margin-bottom: 2px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 0.05em;
+		color: #FFFFFF;
+	}
+
+	&__tagline {
+		font-size: 12px;
+		line-height: 22px;
+		color: #A1B5BB;
+	}
+}

@@ -1,0 +1,18 @@
+.menu-button {
+	flex: 0 0 40px;
+	display: block;
+	color: #A1B5BB;
+	cursor: pointer;
+	font-size: 40px;
+	transition:0.3s;
+
+	@media (min-width: 900px) {
+		display: none;
+	}
+}
+
+.menu-button:active {
+	color: #FFA63A;
+}
+
+

@@ -1,0 +1,15 @@
+.blog-block__slider {
+	position: relative;
+}
+
+.slick-slider{
+	display: flex;
+}
+
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+}

@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+const webpack = require('webpack')
 
 
 
@@ -20,18 +22,22 @@ module.exports = {
 	},
 	entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 		clean: true,
-		filename: '[name].[contenthash].js',
-		assetModuleFilename: 'images/[name][ext]',
+		filename: 'js/index.[contenthash].js',
+		assetModuleFilename: 'img/[name][ext]',
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, 'src', 'index.html')
 		}),
 		new MiniCssExtractPlugin({
-			filename: '[name].[contenthash].css',
-		})
+			filename: 'css/style.[contenthash].css',
+		}),
+		new webpack.ProvidePlugin({
+			'window.$': 'jquery',
+			jQuery: 'jquery',
+		 }),
 	],
 	module: {
 		rules: [
@@ -54,10 +60,6 @@ module.exports = {
 					},
 					"sass-loader",
 				],
-				// type: 'asset/resource',
-				// generator: {
-				// 	filename: 'css/[name][ext]',
-				// },
 			},
 			{
 				test: /\.woff2?$/i,
@@ -91,10 +93,14 @@ module.exports = {
 							  quality: 75
 							}
 						}
-					}	
+					}
 				],
 				type: 'asset/resource',
 			},
+			// {
+			// 	test: /\.svg$/,
+			// 	loader: 'svg-sprite-loader',
+		   // },
 			{
 				test: /\.m?js$/,
 				exclude: /(node_modules|bower_components)/,

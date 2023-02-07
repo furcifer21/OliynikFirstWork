@@ -1,0 +1,58 @@
+.header-block {
+	position: sticky;
+	top: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #043E51;
+	background-image: url('img/header/header_greeting/Rectangle.png');
+	background-repeat: no-repeat;
+	z-index: 50;
+	
+	@media (max-width: 900px) {
+		padding-top: 12px;
+	}
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		fill: green;
+	}
+
+	&__navigation {
+
+	}
+
+	&__contact {
+		border-radius: 25px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 132%;
+		color: #FFFFFF;
+		padding: 18px 35px;
+		background-color: #145E76;
+		transition: all 0.2s;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #094556;
+			color: #B6CDD4;
+		}
+
+		&:active{
+			text-shadow: 2px 2px 2px #000;
+		}
+
+		@media (max-width: 900px) {
+			padding: 14px 25px;
+		}
+	}
+
+
+}
+ 
+
+
