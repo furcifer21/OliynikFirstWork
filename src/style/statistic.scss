@@ -17,7 +17,11 @@
 
 	&__wrapper-container {
 		margin: 0 auto;
-		max-width: 734px;
+		max-width: 62%;
+
+		@media (max-width: 1050px) {
+			max-width: 80%;
+		}
 	}
 
 	&__title {

@@ -68,9 +68,6 @@
 
 	}
 
-	&__main {
-	}
-
 	&__main-logo {
 		margin-bottom: 20px;
 
@@ -89,13 +86,13 @@
 		gap: 40px;
 	}
 
-	&__main-item {
-	}
-
 	&__main-link {
+		fill: #757575;
 	}
 
 	&__main-icon {
+		width: 35px;
+		height: 35px;
 		fill: #757575;
 		transition-duration: 0.3s;
 
@@ -113,11 +110,5 @@
 		stroke: #FFA800;
 		fill: none;
 	}
-}
-.container {
-}
-.pages-list {
-}
-.services-list {
 }
 

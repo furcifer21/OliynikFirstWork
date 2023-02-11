@@ -6,6 +6,7 @@
 
 		@media (min-width: 1150px) {
 			display: flex;
+			align-items: center;
 			gap: 47px;
 		}
 	}
@@ -14,25 +15,30 @@
 		display: none;
 
 		@media (min-width: 1150px) {
+			position: relative;
 			display: block;
-			padding-top: 16;
+			padding-left: 49px;
 			flex-basis: 0;
 			flex-grow: 1;
-			min-height: 542px;
-			background-image: url('img/header/header_main/Rectangle\ 13.png'); 
-			background-repeat: no-repeat;
-			background-size: 431px 542px;
-			background-position: 34px top;
 		}
 	}
 
-	&__image {
-		padding-top: 18px;
-		padding-left: 49px;
+	&__image-frame {
+		position: absolute;
+		top: -19px;
+		left: 32px;
+		max-width: 432px;
+	}
+
+	&__image-man {
+		position: relative;
 		width: 513px;
+		z-index: 2;
 	}
 
 	&__slider {
+		margin: 0 -15px;
+
 		@media (max-width: 1149px) {
 			position: relative;
 			display: flex;
@@ -44,8 +50,8 @@
 		@media (min-width: 1150px) {
 			flex-basis: 0;
 			flex-grow: 1;
-			padding-top: 83px;
-			padding-bottom: 121px;
+			// padding-top: 83px;
+			// padding-bottom: 121px;
 			min-width: 0;
 		}
 		
@@ -82,7 +88,7 @@
 	}
 
 	&__arrow-wrapper {
-
+		padding-left: 15px;
 		@media (max-width: 1149px) {
 			margin-left: auto;
 			margin-right: auto;
@@ -91,6 +97,8 @@
 	}
 
 	&__arrow {
+		width: 25px;
+		height: 25px;
 		cursor: pointer;
 		fill: none;
 		stroke: #A6C1CA;
