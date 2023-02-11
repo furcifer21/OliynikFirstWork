@@ -1,5 +1,5 @@
 .about-block {
-	padding-top: 12px;
+	padding-top: 32px;
 	padding-bottom: 282px;
 	background-color: #043E51;
 	background-image: url('img/header/header_greeting/Rectangle.png');
@@ -9,17 +9,14 @@
 	}
 
 	&__container {
+		position: relative;
 		display: flex;
-
-		@media (min-width:1050px) {
-			min-height: 702px;
-		}
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	&__content {
-		position: relative;
 		flex-basis: 50%;
-		padding-top: 125px;
 		
 		@media (max-width: 1050px) {
 			flex-basis: 100%;
@@ -32,14 +29,14 @@
 
 		@media (min-width: 1050px) {
 			position: absolute;
-			top: 18px;
+			top: -30px;
 			left: 280px;
 			z-index: 5;
 		}
 
 		@media (min-width: 1770px) {
 			position: absolute;
-			top: 241px;
+			top: 220px;
 			left: 1102px;
 			z-index: 5;
 		}
@@ -47,10 +44,9 @@
 
 	&__image-box {
 		position: relative;
+		display: flex;
+		justify-content: flex-end;
 		flex-basis: 50%;
-		background-image: url('img/header/header_main/Rectangle\ 13.png'); 
-		background-repeat: no-repeat;
-		background-position: right 86px;
 
 		@media (max-width: 1050px) {
 			display: none;
@@ -58,9 +54,16 @@
 
 	}
 
-	&__image {
+	&__image-frame {
 		position: absolute;
-		right: 0;
+		bottom: 0;
+	}
+
+	&__image-man {
+		position: relative;
+		transform: translateY(-20px);
+		z-index: 2;
+		
 	}
 
 	&__greeting {

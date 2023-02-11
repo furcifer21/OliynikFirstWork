@@ -13,10 +13,6 @@
 }
 
 .slick-arrow {
-	/* position: absolute; */
-	bottom: 0;
-	left: auto;	
-	z-index: 5;
 }
 
 .testimonials-block__arrow_left {
@@ -40,7 +36,8 @@
 
 
 /* Слайдер */
-.slick-slider{}
+.slick-slider{
+}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -48,7 +45,9 @@
 
 
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+	padding: 0 15px;
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
